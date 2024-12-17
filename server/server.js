@@ -17,6 +17,8 @@ const users = [
 ];
 
 //api endpoints in Query,Mutations --> [] List,  ! required
+//Query = to query data
+//Mutations = to mutate data --create
 const typeDefs = `
     type Query {
         getUsers: [User]
